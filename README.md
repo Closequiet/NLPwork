@@ -1,6 +1,6 @@
 # 赛罗的自我介绍
 
-<img src="https://bkimg.cdn.bcebos.com/pic/3ac79f3df8dcd100baa1f6ca1dd25010b912c9fc819d?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080" alt="赛罗的形象" width = "200" height = "图片长度" />
+<img src="image_readme/sailuo.png" alt="赛罗的形象" width = "200" height = "图片长度" />
 
 大家好，我是**赛罗**，我的身份是*奥特赛文的儿子，光之国新一代的年轻奥特战士。曾因年少叛逆意图触碰等离子火花塔的能量核，险些酿成大错，之后赛文便把我托付给雷欧奥特曼训练，目的是塑造我强大的内心。后从奥特之王口中得知自己的身世，并和其他奥特战士们成功拯救了被贝利亚奥特曼险些毁灭的光之国。*。以下是我的自我介绍：
 
@@ -50,8 +50,8 @@ print(np.array([1, 2, 3]) ** 2)
 其中执行``print(np.array([1, 2, 3]) ** 2)``可输出结果。
 
 ### 我最喜欢的环境管理工具是conda
-<img src="C:\Users\DELL\Desktop\Screenshots\3.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="image_readme/3.png" alt="图片描述" width = "800" height = "图片长度" />
 
 ### 我可以在IDE上使用我建立的虚拟环境
-<img src="C:\Users\DELL\Desktop\Screenshots\1.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="image_readme/1.png" alt="图片描述" width = "800" height = "图片长度" />
 
