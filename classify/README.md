@@ -42,7 +42,7 @@ def remove_stopwords(tokens, stopwords):
 1. 高频词特征选择
  - 数学表达：
    + 选择训练集中出现频率最高的前 $k$ 个词作为特征。
-   + 特征向量：$X \in \mathbb{R}^k$值为词频（或二进制出现与否）。
+   + 特征向量：$X\in \mathbb{R}^k$值为词频（或二进制出现与否）。
  - 实现差异
  ``` python
 from collections import Counter
