@@ -8,21 +8,15 @@
 
 2. 贝叶斯定理应用形式
  - 对于邮件分类（垃圾邮件/正常邮件）：
-$$
-P(y|X) = \frac{P(X|y)P(y)}{P(X)} \quad \text{其中} \ X=(x_1,x_2,...,x_n)
-$$ 
+$$P(y|X) = \frac{P(X|y)P(y)}{P(X)} \quad \text{其中} \ X=(x_1,x_2,...,x_n)$$ 
  - 具体展开：
-$$
-P(y|X) \propto P(y) \prod_{i=1}^n P(x_i|y)
-$$
+$$P(y|X) \propto P(y) \prod_{i=1}^n P(x_i|y)$$
  - 分类决策：
 $\hat{y} = \arg\max_y P(y) \prod_{i=1}^n P(x_i|y)$
 3. 参数估计
  - 先验概率：P(y)为各类别在训练集中的比例。
  - 条件概率（平滑处理版）：
-$$
-P(x_i|y) = \frac{\text{count}(x_i, y) + \alpha}{\sum_{x \in V} (\text{count}(x, y) + \alpha)}
-$$
+$$P(x_i|y) = \frac{\text{count}(x_i, y) + \alpha}{\sum_{x \in V} (\text{count}(x, y) + \alpha)}$$
 - $\alpha$: 平滑系数  
 - $V$: 词汇表 
 
@@ -57,20 +51,13 @@ vocab = [word for word, _ in Counter(all_words).most_common(k)]
 2. TF-IDF加权
  - 数学表达：
    + 词频（TF）：
-   $$
-   \text{tf}(t, d) = \frac{\text{count}(t, d)}{\text{len}(d)}
-   $$
-
+   $$\text{tf}(t, d) = \frac{\text{count}(t, d)}{\text{len}(d)}$$
    + 逆文档频率（IDF）
-   $$
-   \text{idf}(t) = \log \frac{N}{1 + \text{df}(t)}
-   $$
+   $$\text{idf}(t) = \log \frac{N}{1 + \text{df}(t)}$$
    + $N$: 总文档数  
    + $\text{df}(t)$: 包含词$t$的文档数 
    + 最终权重
-   $$
-   \text{tf-idf}(t, d) = \text{tf}(t, d) \times \text{idf}(t)
-   $$
+   $$\text{tf-idf}(t, d) = \text{tf}(t, d) \times \text{idf}(t)$$
  - 实现差异：
  ``` python
 from sklearn.feature_extraction.text import TfidfVectorizer
