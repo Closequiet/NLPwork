@@ -42,7 +42,7 @@ def remove_stopwords(tokens, stopwords):
 1. 高频词特征选择
  - 数学表达：
    + 选择训练集中出现频率最高的前 $k$ 个词作为特征。
-   + 特征向量：$X \in \mathbb{R}^k$ 值为词频（或二进制出现与否）。
+   + 特征向量：$X \in \mathbb{R}^k$值为词频（或二进制出现与否）。
  - 实现差异
  ``` python
 from collections import Counter
@@ -82,7 +82,7 @@ X = tfidf.fit_transform(corpus)
 <img src="https://github.com/Closequiet/NLPwork/blob/34fd3f0bf4ea6ca673ac58ceefb4aa0a5d604b5f/image_readme/4.png" alt="图片描述" width = "800" height = "图片长度" />
 
 #### 样本平衡处理
-<img src="https://github.com/Closequiet/NLPwork/blob/34fd3f0bf4ea6ca673ac58ceefb4aa0a5d604b5f/image_readme/5.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/5ae9ae974474ef0b6540bdc5bd2c775ce36f72c7/image_readme/5.png" alt="图片描述" width = "800" height = "图片长度" />
 
 #### 增加模型评估指标
-<img src="https://github.com/Closequiet/NLPwork/blob/34fd3f0bf4ea6ca673ac58ceefb4aa0a5d604b5f/image_readme/6.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/5ae9ae974474ef0b6540bdc5bd2c775ce36f72c7/image_readme/6.png" alt="图片描述" width = "800" height = "图片长度" />
