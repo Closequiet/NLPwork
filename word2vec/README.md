@@ -1,7 +1,5 @@
 # CBOW 模型实现填空题
 
-# CBOW 模型实现填空题
-
 ## Vocabulary 类
 
 1. **在Vocabulary类中，mask_token对应的索引通过调用add_token方法赋值给self.mask_index属性。**
