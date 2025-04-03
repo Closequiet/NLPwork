@@ -72,4 +72,4 @@
 
 ## 部署代码截图
 
-<img src="https://github.com/Closequiet/NLPwork/blob/5ae9ae974474ef0b6540bdc5bd2c775ce36f72c7/image_readme/7.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/8ffda74c339b1646a20917788a6136942a9998da/image_readme/7.png" alt="图片描述" width = "800" height = "图片长度" />
