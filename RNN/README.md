@@ -1,12 +1,12 @@
 # RNN
 ## Surname-Classification-with-RNNs截图
-<img src="image_readme/8.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/140b3a8aa1da6c54ee074cf46447631faef673c5/image_readme/8.png" alt="图片描述" width = "800" height = "图片长度" />
 
 ## Model1_Unconditioned_Surname_Generation截图
-<img src="image_readme/9.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/140b3a8aa1da6c54ee074cf46447631faef673c5/image_readme/9.png" alt="图片描述" width = "800" height = "图片长度" />
 
 ## Model2_Conditioned_Surname_Generation截图
-<img src="image_readme/10.png" alt="图片描述" width = "800" height = "图片长度" />
+<img src="https://github.com/Closequiet/NLPwork/blob/140b3a8aa1da6c54ee074cf46447631faef673c5/image_readme/10.png" alt="图片描述" width = "800" height = "图片长度" />
 
 ## 题目
 ①两个模型的核心差异体现在什么机制上？
